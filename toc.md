@@ -1,11 +1,14 @@
 # Table of Contents
 
+> Visual authoring of JVM bytecode with blocks. 70+ instructions, smart push optimizer, live generation, and an embedding API.
+
 - [Overview](overview.md)
-- [Getting Started](getting-started/index.md)
-  - [Installation](getting-started/install.md)
-  - [Quick Start](getting-started/quickstart.md)
-- [Guides](guides/index.md)
-  - [Programming](guides/programming.md)
-    - [Java](guides/java.md)
-    - [Python](guides/python.md)
-- [API Reference](reference/api.md)
+- [Getting Started](getting-started.md)
+- [Block Categories & Reference](blocks.md)
+- [Code Generation & Embedding](generation.md)
+
+## Quick Links
+
+- Free Code escape hatch and the `jvm_push` smart constant block
+- All 13 instruction categories (Stack, Locals, Arithmetic, Bitwise, Comparisons, Control Flow, Objects, Methods, Conversions, Arrays, Monitor/Exception, Misc)
+- Generator behavior, `quantr.*` exports, localStorage persistence, and build notes
