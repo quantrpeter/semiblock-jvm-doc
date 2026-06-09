@@ -1,0 +1,509 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="920" viewBox="0 0 620 920" aria-labelledby="title" role="img">
+  <title id="title">SemiBlock JVM - Toolbox with all block categories and representative blocks</title>
+  <desc>Visual reference of the complete SemiBlock JVM Blockly toolbox: 13 color-coded categories on the left with icons, search box, and a flyout area on the right showing example blocks from every category (styled like the live editor).</desc>
+
+  <!-- Background -->
+  <rect width="620" height="920" fill="#f5f5f5"/>
+
+  <!-- Main container card -->
+  <rect x="8" y="8" width="604" height="904" rx="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Search box (left) -->
+  <rect x="16" y="18" width="195" height="26" rx="4" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="24" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#888888">Search</text>
+  <!-- small search icon -->
+  <circle cx="185" cy="31" r="5" fill="none" stroke="#888" stroke-width="1.5"/>
+  <line x1="189" y1="35" x2="193" y2="39" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- LEFT: Categories panel -->
+  <rect x="14" y="52" width="198" height="850" rx="4" fill="#fafafa" stroke="#eeeeee"/>
+
+  <!-- Category rows -->
+  <!-- 1. Free Code -->
+  <g>
+    <rect x="18" y="58" width="190" height="28" rx="5" fill="#6fc3fb"/>
+    <!-- icon: freecode -->
+    <g transform="translate(24,62) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 8 L8 12 L12 16"/>
+      <path d="M20 8 L24 12 L20 16"/>
+      <line x1="15" y1="6" x2="17" y2="18"/>
+      <line x1="6" y1="22" x2="26" y2="22"/>
+      <line x1="6" y1="26" x2="20" y2="26"/>
+    </g>
+    <text x="48" y="77" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Free Code</text>
+  </g>
+
+  <!-- 2. Stack Operations -->
+  <g>
+    <rect x="18" y="90" width="190" height="28" rx="5" fill="#72a4d6"/>
+    <g transform="translate(24,94) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="6" y="22" width="20" height="4" rx="1"/>
+      <rect x="6" y="14" width="20" height="4" rx="1"/>
+      <rect x="6" y="6" width="20" height="4" rx="1"/>
+      <path d="M16 18 L16 13 M14 15 L16 13 L18 15"/>
+    </g>
+    <text x="48" y="109" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Stack Operations</text>
+  </g>
+
+  <!-- 3. Local Variables -->
+  <g>
+    <rect x="18" y="122" width="190" height="28" rx="5" fill="#66d8b2"/>
+    <g transform="translate(24,126) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="8" width="24" height="16" rx="2"/>
+      <circle cx="10" cy="16" r="2"/>
+      <circle cx="16" cy="16" r="2"/>
+      <circle cx="22" cy="16" r="2"/>
+      <text x="16" y="6" text-anchor="middle" font-size="7" font-weight="bold" fill="#ffffff">x</text>
+    </g>
+    <text x="48" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Local Variables</text>
+  </g>
+
+  <!-- 4. Arithmetic -->
+  <g>
+    <rect x="18" y="154" width="190" height="28" rx="5" fill="#CF63CF"/>
+    <g transform="translate(24,158) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+      <line x1="8" y1="10" x2="24" y2="10"/>
+      <line x1="16" y1="3" x2="16" y2="17"/>
+      <line x1="10" y1="22" x2="22" y2="22"/>
+      <circle cx="12" cy="27" r="1.5"/>
+      <circle cx="20" cy="27" r="1.5"/>
+    </g>
+    <text x="48" y="173" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Arithmetic</text>
+  </g>
+
+  <!-- 5. Bitwise Operations -->
+  <g>
+    <rect x="18" y="186" width="190" height="28" rx="5" fill="#c1aaf1"/>
+    <g transform="translate(24,190) scale(0.48)" fill="#ffffff" font-family="monospace" font-size="9" font-weight="bold">
+      <text x="6" y="12">1</text><text x="14" y="12">0</text><text x="22" y="12">1</text>
+      <text x="6" y="24">0</text><text x="14" y="24">0</text><text x="22" y="24">1</text>
+      <rect x="8" y="14" width="16" height="4" rx="1" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+    </g>
+    <text x="48" y="205" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Bitwise Operations</text>
+  </g>
+
+  <!-- 6. Comparisons -->
+  <g>
+    <rect x="18" y="218" width="190" height="28" rx="5" fill="#9966FF"/>
+    <g transform="translate(24,222) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M6 12 L12 12 L12 6"/>
+      <path d="M26 12 L20 12 L20 6"/>
+      <line x1="8" y1="20" x2="24" y2="20"/>
+      <line x1="8" y1="26" x2="24" y2="26"/>
+    </g>
+    <text x="48" y="237" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Comparisons</text>
+  </g>
+
+  <!-- 7. Control Flow -->
+  <g>
+    <rect x="18" y="250" width="190" height="28" rx="5" fill="#FFAB19"/>
+    <g transform="translate(24,254) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 4 L16 12 M14 10 L16 12 L18 10"/>
+      <rect x="10" y="12" width="12" height="8" rx="1"/>
+      <path d="M16 20 L16 28 M14 26 L16 28 L18 26"/>
+      <path d="M22 16 L28 16 L28 10 L22 10"/>
+    </g>
+    <text x="48" y="269" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Control Flow</text>
+  </g>
+
+  <!-- 8. Object Operations -->
+  <g>
+    <rect x="18" y="282" width="190" height="28" rx="5" fill="#4C97FF"/>
+    <g transform="translate(24,286) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2">
+      <rect x="6" y="6" width="20" height="20" rx="3"/>
+      <line x1="6" y1="12" x2="26" y2="12"/>
+      <circle cx="10" cy="9" r="1"/>
+      <circle cx="14" cy="9" r="1"/>
+      <line x1="10" y1="17" x2="22" y2="17"/>
+      <line x1="10" y1="21" x2="18" y2="21"/>
+    </g>
+    <text x="48" y="301" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Object Operations</text>
+  </g>
+
+  <!-- 9. Method Invocation -->
+  <g>
+    <rect x="18" y="314" width="190" height="28" rx="5" fill="#59C059"/>
+    <g transform="translate(24,318) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2">
+      <path d="M4 6 L4 26 L10 26"/>
+      <path d="M28 6 L28 26 L22 26"/>
+      <circle cx="16" cy="12" r="4"/>
+      <path d="M16 16 L16 22 M13 19 L16 22 L19 19"/>
+      <text x="16" y="14" text-anchor="middle" font-size="5.5" font-weight="bold" fill="#ffffff">f</text>
+    </g>
+    <text x="48" y="333" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Method Invocation</text>
+  </g>
+
+  <!-- 10. Type Conversions -->
+  <g>
+    <rect x="18" y="346" width="190" height="28" rx="5" fill="#FF6680"/>
+    <g transform="translate(24,350) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2">
+      <rect x="4" y="4" width="10" height="10" rx="1"/>
+      <text x="9" y="11" text-anchor="middle" font-size="6" font-weight="bold" fill="#ffffff">i</text>
+      <rect x="18" y="18" width="10" height="10" rx="1"/>
+      <text x="23" y="25" text-anchor="middle" font-size="6" font-weight="bold" fill="#ffffff">d</text>
+      <path d="M14 9 L18 9 M16 7 L18 9 L16 11"/>
+      <path d="M18 23 L14 23 M16 21 L14 23 L16 25"/>
+    </g>
+    <text x="48" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Type Conversions</text>
+  </g>
+
+  <!-- 11. Array Operations -->
+  <g>
+    <rect x="18" y="378" width="190" height="28" rx="5" fill="#FF8C1A"/>
+    <g transform="translate(24,382) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round">
+      <path d="M6 4 L6 28 M6 4 L10 4 M6 28 L10 28"/>
+      <path d="M26 4 L26 28 M26 4 L22 4 M26 28 L22 28"/>
+      <rect x="11" y="8" width="4" height="4"/>
+      <rect x="11" y="14" width="4" height="4"/>
+      <rect x="11" y="20" width="4" height="4"/>
+      <rect x="17" y="8" width="4" height="4"/>
+      <rect x="17" y="14" width="4" height="4"/>
+      <rect x="17" y="20" width="4" height="4"/>
+    </g>
+    <text x="48" y="397" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Array Operations</text>
+  </g>
+
+  <!-- 12. Monitor &amp; Exception -->
+  <g>
+    <rect x="18" y="410" width="190" height="28" rx="5" fill="#FF4D6A"/>
+    <g transform="translate(24,414) scale(0.48)" fill="none" stroke="#ffffff" stroke-width="2">
+      <circle cx="16" cy="16" r="10"/>
+      <path d="M16 10 L16 16 L20 18"/>
+      <path d="M8 6 L10 4 M24 6 L22 4 M6 24 L4 26 M26 24 L28 26"/>
+    </g>
+    <text x="48" y="429" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Monitor &amp; Exception</text>
+  </g>
+
+  <!-- 13. Miscellaneous -->
+  <g>
+    <rect x="18" y="442" width="190" height="28" rx="5" fill="#8E8E8E"/>
+    <g transform="translate(24,446) scale(0.48)" fill="#ffffff">
+      <circle cx="8" cy="8" r="2"/>
+      <circle cx="24" cy="8" r="2"/>
+      <circle cx="8" cy="24" r="2"/>
+      <rect x="14" y="14" width="10" height="10" rx="1" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+      <line x1="17" y1="17" x2="21" y2="21" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="21" y1="17" x2="17" y2="21" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="48" y="461" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#000000">Miscellaneous</text>
+  </g>
+
+  <!-- Separator label -->
+  <text x="20" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="700" fill="#777777" letter-spacing="0.5">JVM BYTECODE INSTRUCTIONS</text>
+  <line x1="18" y1="489" x2="208" y2="489" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- RIGHT: Flyout / Blocks area -->
+  <rect x="220" y="52" width="380" height="850" rx="4" fill="#f8fafc" stroke="#e6e6e6"/>
+  <text x="232" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#555555">Constants</text>
+
+  <!-- Helper function for block (we repeat similar groups for visual fidelity) -->
+  <!-- Block drawing helper comments: light rounded rect + top tab + label -->
+
+  <!-- Stack constants (matching the provided screenshot) -->
+  <!-- Row 1 -->
+  <g transform="translate(232,78)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_0</text>
+  </g>
+  <g transform="translate(318,78)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_1</text>
+  </g>
+  <g transform="translate(404,78)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_2</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(232,102)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_3</text>
+  </g>
+  <g transform="translate(318,102)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_4</text>
+  </g>
+  <g transform="translate(404,102)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">iconst_5</text>
+  </g>
+
+  <!-- More stack -->
+  <g transform="translate(232,126)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">lconst_0</text>
+  </g>
+  <g transform="translate(318,126)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">fconst_0</text>
+  </g>
+  <g transform="translate(404,126)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="28" y="0" width="18" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="8" y="17" font-family="monospace" font-size="9" fill="#333333">dconst_0</text>
+  </g>
+
+  <!-- Smart push (special) -->
+  <g transform="translate(232,152)">
+    <rect x="0" y="4" width="170" height="20" rx="3" fill="#b3d9f5" stroke="#5a9fd8" stroke-width="0.8"/>
+    <rect x="55" y="0" width="18" height="5" rx="1" fill="#b3d9f5" stroke="#5a9fd8" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#222">jvm_push</text>
+    <text x="68" y="17" font-family="system-ui" font-size="7" fill="#444">TYPE ▼  VALUE</text>
+  </g>
+
+  <!-- Stack manip -->
+  <g transform="translate(232,176)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">pop</text>
+  </g>
+  <g transform="translate(290,176)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">dup</text>
+  </g>
+  <g transform="translate(348,176)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">swap</text>
+  </g>
+
+  <!-- Section: Arithmetic -->
+  <text x="232" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#CF63CF">Arithmetic</text>
+  <g transform="translate(232,216)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">iadd</text>
+  </g>
+  <g transform="translate(290,216)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">isub</text>
+  </g>
+  <g transform="translate(348,216)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">imul</text>
+  </g>
+  <g transform="translate(406,216)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e8b3e8" stroke="#b36bb3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">idiv</text>
+  </g>
+
+  <!-- Section: Local Variables -->
+  <text x="232" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#66d8b2">Local Variables</text>
+  <g transform="translate(232,256)">
+    <rect x="0" y="4" width="72" height="20" rx="3" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <rect x="24" y="0" width="16" height="5" rx="1" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">iload</text>
+  </g>
+  <g transform="translate(310,256)">
+    <rect x="0" y="4" width="72" height="20" rx="3" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <rect x="24" y="0" width="16" height="5" rx="1" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">istore</text>
+  </g>
+  <g transform="translate(388,256)">
+    <rect x="0" y="4" width="72" height="20" rx="3" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <rect x="24" y="0" width="16" height="5" rx="1" fill="#c5f0e0" stroke="#4aa88a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">iinc</text>
+  </g>
+
+  <!-- Section: Control Flow -->
+  <text x="232" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FFAB19">Control Flow</text>
+  <g transform="translate(232,296)">
+    <rect x="0" y="4" width="82" height="20" rx="3" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <rect x="28" y="0" width="16" height="5" rx="1" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">if_icmp</text>
+  </g>
+  <g transform="translate(320,296)">
+    <rect x="0" y="4" width="58" height="20" rx="3" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <rect x="18" y="0" width="16" height="5" rx="1" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">goto</text>
+  </g>
+  <g transform="translate(384,296)">
+    <rect x="0" y="4" width="58" height="20" rx="3" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <rect x="18" y="0" width="16" height="5" rx="1" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">label</text>
+  </g>
+  <g transform="translate(448,296)">
+    <rect x="0" y="4" width="68" height="20" rx="3" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <rect x="22" y="0" width="16" height="5" rx="1" fill="#ffe4b3" stroke="#d38f1a" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">ireturn</text>
+  </g>
+
+  <!-- Section: Comparisons -->
+  <text x="232" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#9966FF">Comparisons</text>
+  <g transform="translate(232,336)">
+    <rect x="0" y="4" width="58" height="20" rx="3" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <rect x="18" y="0" width="16" height="5" rx="1" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">lcmp</text>
+  </g>
+  <g transform="translate(296,336)">
+    <rect x="0" y="4" width="58" height="20" rx="3" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <rect x="18" y="0" width="16" height="5" rx="1" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">fcmpl</text>
+  </g>
+  <g transform="translate(360,336)">
+    <rect x="0" y="4" width="58" height="20" rx="3" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <rect x="18" y="0" width="16" height="5" rx="1" fill="#d9c2ff" stroke="#6b4db3" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">dcmpg</text>
+  </g>
+
+  <!-- Section: Bitwise -->
+  <text x="232" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#c1aaf1">Bitwise Operations</text>
+  <g transform="translate(232,376)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">ishl</text>
+  </g>
+  <g transform="translate(290,376)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">iand</text>
+  </g>
+  <g transform="translate(348,376)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">ior</text>
+  </g>
+  <g transform="translate(406,376)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#e6d9f7" stroke="#8f7ab8" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">ixor</text>
+  </g>
+
+  <!-- Section: Object Operations -->
+  <text x="232" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#4C97FF">Object Operations</text>
+  <g transform="translate(232,416)">
+    <rect x="0" y="4" width="72" height="20" rx="3" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <rect x="24" y="0" width="16" height="5" rx="1" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">new</text>
+  </g>
+  <g transform="translate(310,416)">
+    <rect x="0" y="4" width="92" height="20" rx="3" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <rect x="32" y="0" width="16" height="5" rx="1" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">getfield</text>
+  </g>
+  <g transform="translate(408,416)">
+    <rect x="0" y="4" width="92" height="20" rx="3" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <rect x="32" y="0" width="16" height="5" rx="1" fill="#b8d4f7" stroke="#3a7acc" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">putfield</text>
+  </g>
+
+  <!-- Section: Method Invocation -->
+  <text x="232" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#59C059">Method Invocation</text>
+  <g transform="translate(232,456)">
+    <rect x="0" y="4" width="118" height="20" rx="3" fill="#c5e8c5" stroke="#3f9c3f" stroke-width="0.8"/>
+    <rect x="42" y="0" width="16" height="5" rx="1" fill="#c5e8c5" stroke="#3f9c3f" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="8" fill="#333">invokevirtual</text>
+  </g>
+  <g transform="translate(356,456)">
+    <rect x="0" y="4" width="118" height="20" rx="3" fill="#c5e8c5" stroke="#3f9c3f" stroke-width="0.8"/>
+    <rect x="42" y="0" width="16" height="5" rx="1" fill="#c5e8c5" stroke="#3f9c3f" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="8" fill="#333">invokestatic</text>
+  </g>
+
+  <!-- Section: Type Conversions -->
+  <text x="232" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FF6680">Type Conversions</text>
+  <g transform="translate(232,496)">
+    <rect x="0" y="4" width="42" height="20" rx="3" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="12" y="0" width="16" height="5" rx="1" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">i2l</text>
+  </g>
+  <g transform="translate(280,496)">
+    <rect x="0" y="4" width="42" height="20" rx="3" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="12" y="0" width="16" height="5" rx="1" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">i2f</text>
+  </g>
+  <g transform="translate(328,496)">
+    <rect x="0" y="4" width="42" height="20" rx="3" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="12" y="0" width="16" height="5" rx="1" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">f2i</text>
+  </g>
+  <g transform="translate(376,496)">
+    <rect x="0" y="4" width="42" height="20" rx="3" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="12" y="0" width="16" height="5" rx="1" fill="#ffc1cb" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">i2b</text>
+  </g>
+
+  <!-- Section: Array Operations -->
+  <text x="232" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FF8C1A">Array Operations</text>
+  <g transform="translate(232,536)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <rect x="26" y="0" width="16" height="5" rx="1" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">newarray</text>
+  </g>
+  <g transform="translate(316,536)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <rect x="26" y="0" width="16" height="5" rx="1" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">aload</text>
+  </g>
+  <g transform="translate(400,536)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <rect x="26" y="0" width="16" height="5" rx="1" fill="#ffd9b3" stroke="#c36a14" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">arraylength</text>
+  </g>
+
+  <!-- Section: Monitor & Exception -->
+  <text x="232" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FF4D6A">Monitor &amp; Exception</text>
+  <g transform="translate(232,576)">
+    <rect x="0" y="4" width="92" height="20" rx="3" fill="#ffc1c9" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="32" y="0" width="16" height="5" rx="1" fill="#ffc1c9" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">monitorenter</text>
+  </g>
+  <g transform="translate(330,576)">
+    <rect x="0" y="4" width="78" height="20" rx="3" fill="#ffc1c9" stroke="#c93d52" stroke-width="0.8"/>
+    <rect x="26" y="0" width="16" height="5" rx="1" fill="#ffc1c9" stroke="#c93d52" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">athrow</text>
+  </g>
+
+  <!-- Section: Miscellaneous + Free Code example -->
+  <text x="232" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#8E8E8E">Miscellaneous</text>
+  <g transform="translate(232,616)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#d9d9d9" stroke="#666" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#d9d9d9" stroke="#666" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">nop</text>
+  </g>
+  <g transform="translate(290,616)">
+    <rect x="0" y="4" width="52" height="20" rx="3" fill="#d9d9d9" stroke="#666" stroke-width="0.8"/>
+    <rect x="16" y="0" width="16" height="5" rx="1" fill="#d9d9d9" stroke="#666" stroke-width="0.8"/>
+    <text x="6" y="17" font-family="monospace" font-size="9" fill="#333">ldc</text>
+  </g>
+
+  <!-- Free Code block (taller, special) -->
+  <text x="232" y="652" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#6fc3fb">Free Code (escape hatch)</text>
+  <g transform="translate(232,658)">
+    <rect x="0" y="4" width="260" height="48" rx="4" fill="#d4edfc" stroke="#4a9fd1" stroke-width="0.9"/>
+    <!-- top tab -->
+    <rect x="110" y="0" width="22" height="5" rx="1" fill="#d4edfc" stroke="#4a9fd1" stroke-width="0.9"/>
+    <text x="8" y="18" font-family="monospace" font-size="9" fill="#333333">// raw bytecode here</text>
+    <text x="8" y="32" font-family="monospace" font-size="9" fill="#333333">ldc "complex string"</text>
+    <text x="8" y="46" font-family="monospace" font-size="9" fill="#333333">tableswitch ...</text>
+  </g>
+
+  <!-- Footer note -->
+  <text x="232" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="8" fill="#777777">All 70+ blocks are available via the 13 categories above. The jvm_push block</text>
+  <text x="232" y="740" font-family="system-ui, -apple-system, sans-serif" font-size="8" fill="#777777">the optimal constant instruction.</text>
+  <text x="232" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="8" fill="#777777">Blocks connect vertically (statement style). Use labels for control flow targets.</text>
+
+  <!-- Small legend -->
+  <rect x="232" y="760" width="360" height="100" rx="3" fill="#ffffff" stroke="#e8e8e8"/>
+  <text x="242" y="776" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="600" fill="#444">Legend</text>
+  <g transform="translate(242,784)">
+    <rect x="0" y="2" width="38" height="14" rx="2" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.6"/>
+    <rect x="12" y="0" width="10" height="3" rx="0.5" fill="#a8d1f0" stroke="#6a9fd1" stroke-width="0.6"/>
+    <text x="44" y="13" font-family="system-ui" font-size="7" fill="#555">Statement block (previous/next)</text>
+  </g>
+  <text x="242" y="810" font-family="system-ui" font-size="7" fill="#666">• Drag from toolbox → workspace</text>
+  <text x="242" y="822" font-family="system-ui" font-size="7" fill="#666">• Live bytecode appears on the right in the editor</text>
+  <text x="242" y="834" font-family="system-ui" font-size="7" fill="#666">• Search filters the category list in real time</text>
+</svg>
