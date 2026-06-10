@@ -28,12 +28,7 @@ Goal: push two ints, add them, and return the result (equivalent to a static met
 3. From **Control Flow**, drag an `ireturn` (choose the `i` variant of `jvm_return`).
 4. Watch the right-hand **Generated Code** pane update instantly:
 
-   ```
-   iconst_2
-   iconst_3
-   iadd
-   ireturn
-   ```
+![](img/example1.png)
 
 5. Try the **smart push** block instead: drag `jvm_push`, set TYPE to `int` and VALUE to `2`. It emits `iconst_2`. Change the value to `300` and it switches to `sipush 300`.
 

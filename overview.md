@@ -14,8 +14,6 @@ The searchable toolbox (left side of the editor) contains every available block,
 
 The right side of the toolbox flyout shows the blocks belonging to the selected (or searched) category. Blocks are statement-oriented and connect vertically. Special blocks such as `jvm_push` (smart constant optimizer) and `freeCode` (raw bytecode escape hatch) are also available.
 
-![](img/toolbox.svg){width=100%}
-
 ## What It Is
 
 - A **statement-oriented Blockly workspace** (blocks connect top-to-bottom via previous/next connections, just like lines of code).
