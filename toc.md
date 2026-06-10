@@ -5,7 +5,7 @@
 - [Overview](overview.md)
 - [Getting Started](getting-started.md)
 - [Block Categories & Reference](blocks.md)
-- [Code Generation & Embedding](generation.md)
+- [Import](import.md)
 
 ## Quick Links
 
